@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Work+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #82CCDD;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container .container-singup {
+    background-color: #fff;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 20px;
+    top: 102px;
+    left: 360px;
+    margin-left: 520px;
+}
+
+/* container singup header */
+
+.container .container-singup .container-singup-header {
+    padding-left: 130px;
+    padding-top: 10px;
+
+}
+
+.container .container-singup .container-singup-header .container-singup-header-logo img {
+    height: 65px;
+    width: 102px;
+    margin-left: 5px;
+}
+
+.container .container-singup .container-singup-header .container-singup-header-info h3 {
+    font-weight: 700;
+    font-style: 20px;
+    width: 120px;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* container singup inputFullname */
+
+.container .container-singup .container-singup-inputFullname {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.container .container-singup .container-singup-inputFullname p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.container .container-singup .container-singup-inputFullname input {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    border: 1px solid #E2E6EE;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.container .container-singup .container-singup-inputFullname ::placeholder {
+    width: 276px;
+    height: 19px;
+    color: black;
+    padding-left: 10px;
+}
+
+/* container singup inputCredit */
+
+.container .container-singup .container-singup-inputCredit {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.container .container-singup .container-singup-inputCredit p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.container .container-singup .container-singup-inputCredit input {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #E2E6EE;
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+.container .container-singup .container-singup-inputCredit ::placeholder {
+    width: 276px;
+    height: 19px;
+    color: #9EA8BD;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.container .container-singup .container-singup-inputCredit i {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 9px 60px;
+    color: #aaa;
+    transition: 0.3s;
+    width: 14px;
+    height: 14px;
+    align-items: center;
+}
+
+
+/* container singup inputDateCVV */
+
+.container .container-singup .container-singup-inputDateCVV {
+    /* margin: 10px 10px 0 10px; */
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+/* container singup inputDate */
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputDate {
+    padding-left: 10px;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputDate p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputDate input {
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: #E2E6EE;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputDate ::placeholder {
+    width: 276px;
+    height: 19px;
+    color: #9EA8BD;
+    padding-left: 10px;
+    align-items: center;
+}
+
+/* container singup inputCVV */
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputCVV {
+    margin-left: 40px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputCVV p {
+
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputCVV input {
+    border-radius: 10px;
+    border: none;
+    background-color: #E2E6EE;
+    margin-right: 20px;
+    width: 140px;
+}
+
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputCVV ::placeholder {
+    width: 276px;
+    height: 19px;
+    color: #9EA8BD;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.container .container-singup .container-singup-inputDateCVV .container-singup-inputCVV i {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    padding: 9px 60px;
+    color: #aaa;
+    transition: 0.3s;
+    width: 5px;
+    height: 5px;
+    align-items: center;
+}
+
+/* container singup inputCode */
+
+.container .container-singup .container-singup-inputCode {
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+
+}
+
+.container .container-singup .container-singup-inputCode p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.container .container-singup .container-singup-inputCode input {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #E2E6EE;
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+.container .container-singup .container-singup-inputCode ::placeholder {
+    width: 276px;
+    height: 19px;
+    color: #9EA8BD;
+    padding-left: 10px;
+    align-items: center;
+}
+
+/* container singup confirm */
+
+.container .container-singup .container-singup-confirm {
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.container .container-singup .container-singup-confirm button {
+    margin-left: 10px;
+    background-color: #288FB4;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.container .container-singup .container-singup-confirm p {
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+
+    height: 14px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+/* input focus */
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+input[type="number"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
