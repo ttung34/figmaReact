@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from "./imag/Happy Bunch Avatar.png"
 
 function Figma () {
     return (
@@ -7,7 +8,7 @@ function Figma () {
 
                 <div className="container-singup-header">
                     <div className="container-singup-header-logo">
-                        <img src="./imag/Happy Bunch Avatar.png" />
+                        <img src={Img} />
                     </div>
 
                     <div className="container-singup-header-info">
